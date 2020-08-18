@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-08-18T09:58:07" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="patient medical records test" timestamp="2020-08-18T09:58:07" tests="6" file="/home/user/Документы/development/hero-brands-test/test/test.js" failures="1" time="0">
+    <testcase name="patient medical records test &quot;before all&quot; hook" time="0" classname="&quot;before all&quot; hook">
+      <failure message="session not created: This version of ChromeDriver only supports Chrome version 78
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Linux 4.15.0-20-generic x86_64)" type="SessionNotCreatedError"><![CDATA[SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 78
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Linux 4.15.0-20-generic x86_64)
+    at Object.checkLegacyResponse (node_modules/selenium-webdriver/lib/error.js:546:15)
+    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:509:13)
+    at doSend.then.response (node_modules/selenium-webdriver/lib/http.js:441:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: WebDriver.createSession()
+    at Function.createSession (node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+    at Function.createSession (node_modules/selenium-webdriver/chrome.js:761:15)
+    at createDriver (node_modules/selenium-webdriver/index.js:170:33)
+    at Builder.build (node_modules/selenium-webdriver/index.js:642:16)
+    at Context.<anonymous> (test/test.js:28:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

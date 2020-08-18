@@ -188,6 +188,10 @@ tr {
     border-bottom: 1px solid #ddd;
 }
 
+tr td {
+    text-align: center;
+}
+
 tr th:first-child,
 tr td:first-child {
     padding-left: 12px;
